@@ -1,6 +1,6 @@
 # amusing-R
 
-Just a collection of amusing R packages from all corners of the weird, wonderful, supportive R community. 
+Just a collection of amusing R packages from all corners of the weird, wonderful R community. 
 
 ## beepr 
 Play notification sounds on any platform: https://github.com/rasmusab/beepr

@@ -82,3 +82,5 @@ rainbowCats(x, y, yspread=0.05, xspread=0.05, ptsize=2, catshiftx=0.5, catshifty
 install.packages("fortunes") 
 library(fortunes)
 fortune()
+
+

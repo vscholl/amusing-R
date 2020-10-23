@@ -62,7 +62,7 @@ BRRR::skrrrahh(23)
 # https://github.com/Gibbsdavidl/CatterPlots
 
 # install Catterplot 
-install_github("Gibbsdavidl/CatterPlots")
+#install_github("Gibbsdavidl/CatterPlots")
 library(CatterPlots)
 
 x <- -10:10
@@ -71,3 +71,14 @@ y <- -x^2 + 10
 rainbowCats(x, y, yspread=0.05, xspread=0.05, ptsize=2, catshiftx=0.5, catshifty=-0.2, canvas=c(-0.5,1.5,-1,1.5))
 
 
+
+
+# fortunes  ---------------------------------------------------------------
+
+# https://cran.r-project.org/web/packages/fortunes/index.html
+
+# get a fortune from the R community 
+
+install.packages("fortunes") 
+library(fortunes)
+fortune()
